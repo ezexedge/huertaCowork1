@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav li {
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar-nav ul li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar-nav ul li>a:after {
+    content: '';
+    display: block;
+    height: 4px;
+    background: white;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+.navbar-nav ul li>a:hover:after {
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+.navbar-nav ul li a:hover {
+    text-decoration-line: none;
+    color: white;
+}
+
+header {
+    background: url("../img/cowork.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+header nav {
+    padding: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+header nav ul li>a:after {
+    content: '';
+    display: block;
+    height: 4px;
+    background: white;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+
+header nav ul li>a:hover:after {
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+
+header nav ul li a:hover {
+    text-decoration-line: none;
+    color: white;
+}
+
+header .navbar {
+    display: none;
+}
+
+header p {
+    font-size: 40px;
+}
+
+header p a i {
+    color: white;
+    font-size: 50px;
+    height: 20px;
+}
+
+.texto {
+    font-size: 30px;
+    padding: 170px;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Black Ops One';
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-family: Timmana;
+    font-weight: lighter;
+}
+
+.price-table h3 {
+    padding: 10px;
+    margin: 30px;
+    border-bottom: 3px solid #343a40;
+}
+
+.price-table .table1 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.price-table .table1 a {
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.price-table .table1 h4 {
+    font-family: arial;
+}
+
+.price-table .table1 h4 span {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.banner {
+    background: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 80px;
+    font-family: 'Shrikhand';
+    margin-top: 100px;
+}
+
+@media (max-width: 520px) {
+    .banner {
+        padding: 50px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 396px) {
+    .banner {
+        padding: 35px 0px;
+    }
+    .banner p {
+        font-size: 4px;
+        color: red;
+        text-align: center;
+    }
+    .banner .correo {
+        font-size: 5px;
+    }
+    .banner ul li a i {
+        color: #fff;
+        font-size: 10px;
+    }
+}
+
+.banner p {
+    font-size: 35px;
+    text-align: center;
+}
+
+.banner hr {
+    height: 3px;
+    background-color: white;
+    border: none;
+    width: 90px;
+    margin: auto;
+}
+
+.banner .correo {
+    font-size: 20px;
+    font-family: 'arial';
+}
+
+.banner ul {
+    margin: auto;
+}
+
+.banner ul li a i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.banner ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.variedades {
+    padding: 100px;
+}
+
+.variedades .caja i {
+    font-size: 50px;
+    text-align: center;
+}
+
+.variedades .caja p {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contacto .form-control {
+    border: 3px solid black;
+    border-radius: 0px;
+    margin: 0px;
+}
+
+.contacto {
+    padding: 0px;
+}
+
+.contacto form textarea {
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+.contacto form {
+    margin-top: 60px;
+}
+
+.contacto form button {
+    border-radius: 0px;
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-color: black;
+}
+
+.contacto .contacto2 {
+    font-size: 25px;
+}
+
+.contacto .contacto2 a {
+    color: black;
+}
+
+.contacto .contacto2 p i {}
+
+@media (max-width: 770px) {
+    .contacto .contacto2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 512px) {
+    .contacto .contacto2 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 404px) {
+    .contacto .contacto2 {
+        font-size: 12px;
+    }
+}
+
+.ubicacion iframe {
+    width: 100%;
+}
+
+.ubicacion {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+footer {
+    height: 100px;
+    padding: 35px;
+}
+
+@media (max-width: 475px) {
+    .texto {
+        padding: 0px;
+        font-size: 20px;
+    }
+}
+
+
+/* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
+
+@media (max-width: 650px) {
+    .texto {
+        font-size: 25px;
+        padding: 70px 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .price-table .table1 {
+        padding: 20px 118px;
+    }
+}
+
+@media (max-width: 465px) {
+    .price-table .table1 {
+        padding: 20px 70px;
+    }
+}
+
+@media (max-width: 375px) {
+    .price-table .table1 {
+        padding: 10px 20px;
+    }
+}
+
+
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+
+@media (max-width: 360px) {
+    footer {
+        height: 120px;
+    }
+    footer p {
+        font-size: 10px;
+    }
+    footer ul li a {
+        font-size: 15px;
+    }
+}
+
+
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+
+@media (min-width: @screen-lg-min) {
+    ...
+}
+
+body .navbar {
+    display: none;
+}
+
+@media (max-width: 490px) {
+    body .navbar {
+        display: flex;
+        z-index: 2;
+    }
+    header nav ul li a {
+        display: none;
+    }
+    header nav {
+        padding: 0px;
+    }
+    header nav ul li a {
+        padding: 0px;
+    }
+}
